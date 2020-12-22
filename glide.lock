@@ -1,8 +1,18 @@
-hash: 785b977c7c2df70163c08c3125d3b0f11f7384bf8d0f488e4ff9a2af09ce3660
-updated: 2020-12-22T21:07:02.030343318Z
+hash: 384d91eeff6f8f9d480a9a29dfde915847e53e02632a2ebb549dfee9455d116d
+updated: 2020-12-22T21:11:36.490959704Z
 imports:
 - name: github.com/atotto/clipboard
   version: 579379fa8ff8a6d3fa979cec107f8f6d7f8fde90
+- name: github.com/limetext/backend
+  version: bc71ea523a8e170e8a20954e7443400bc9eb2e3f
+  subpackages:
+  - clipboard
+  - keys
+  - log
+  - packages
+  - parser
+  - render
+  - watch
 - name: github.com/limetext/loaders
   version: ab38699553d3f5c6adedaf6a417f1094e85243e5
   subpackages:
@@ -11,7 +21,7 @@ imports:
 - name: github.com/limetext/log4go
   version: fcac346f72535adc85906e1c9c96083ace6b30a3
 - name: github.com/limetext/rubex
-  version: 06adcbb38bcc95987997894b1de33e7502bc1933
+  version: bcd3d9d5b6ddc4d8a7021088bdd02f042bcf917c
 - name: github.com/limetext/text
   version: a501ee418129fedf3fdca3b0d116231dd14af26c
 - name: github.com/limetext/util
@@ -19,7 +29,7 @@ imports:
 - name: github.com/quarnster/parser
   version: 8991807ce6d383a41077a642b7b381eba1df7064
 - name: github.com/rjeczalik/notify
-  version: e2a77dcc14cf6732bfa4c361554f27dc696d5d79
+  version: 69d839f37b13a8cb7a78366f7633a4071cb43be7
 - name: golang.org/x/sys
   version: bc327ba9c2f0f4af0623e32d37ce4b080f437c53
   subpackages:
