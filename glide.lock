@@ -1,5 +1,5 @@
 hash: 384d91eeff6f8f9d480a9a29dfde915847e53e02632a2ebb549dfee9455d116d
-updated: 2020-12-22T21:40:04.47943052Z
+updated: 2020-12-22T21:50:38.995627309Z
 imports:
 - name: github.com/atotto/clipboard
   version: 579379fa8ff8a6d3fa979cec107f8f6d7f8fde90
@@ -31,7 +31,7 @@ imports:
 - name: github.com/rjeczalik/notify
   version: 69d839f37b13a8cb7a78366f7633a4071cb43be7
 - name: golang.org/x/sys
-  version: bc327ba9c2f0f4af0623e32d37ce4b080f437c53
+  version: 98c5dad5d1a0e8a73845ecc8897d0bd56586511d
   subpackages:
   - internal/unsafeheader
   - unix
