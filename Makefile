@@ -21,8 +21,8 @@ tasks:
 	go get -d -u github.com/limetext/tasks
 
 glide:
-        go get -v -u github.com/Masterminds/glide
-        glide install
+	go get -v -u github.com/Masterminds/glide
+	glide install
 
 cover_dep:
 	go get -v -u github.com/mattn/goveralls
