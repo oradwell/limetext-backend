@@ -1,8 +1,27 @@
-package: github.com/limetext/backend
-ignore:
-  - github.com/limetext/backend/clipboard
-  - github.com/limetext/backend/keys
-  - github.com/limetext/backend/log
-  - github.com/limetext/backend/packages
-  - github.com/limetext/backend/parser
-  - github.com/limetext/backend/watch
+package: .
+import:
+- package: github.com/atotto/clipboard
+  version: ^0.1.2
+- package: github.com/limetext/backend
+  subpackages:
+  - clipboard
+  - keys
+  - log
+  - packages
+  - parser
+  - render
+  - watch
+- package: github.com/limetext/loaders
+- package: github.com/limetext/log4go
+- package: github.com/limetext/rubex
+  version: ^4.4.13
+- package: github.com/limetext/text
+- package: github.com/limetext/util
+- package: github.com/quarnster/parser
+- package: github.com/rjeczalik/notify
+  version: ^0.9.2
+testImport:
+- package: github.com/limetext/sublime
+  subpackages:
+  - textmate/language
+  - textmate/theme

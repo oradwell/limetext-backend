@@ -1,7 +1,7 @@
 precommit: fmt license test
 
 test:
-	@go test -race $(glide novendor)
+	@go test -race
 fmt:
 	@go fmt ./...
 license:
